@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Resume-Builder/',
   server: {
     host: true,
     port: 3000,
